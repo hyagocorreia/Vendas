@@ -1,0 +1,67 @@
+>>> Quinta-feira, 24 Jan 2013 19:27:29 -0300
+java.lang.RuntimeException: JOptionPane: option type must be one of JOptionPane.DEFAULT_OPTION, JOptionPane.YES_NO_OPTION, JOptionPane.YES_NO_CANCEL_OPTION or JOptionPane.OK_CANCEL_OPTION
+	at javax.swing.JOptionPane.setOptionType(Unknown Source)
+	at javax.swing.JOptionPane.<init>(Unknown Source)
+	at javax.swing.JOptionPane.showOptionDialog(Unknown Source)
+	at javax.swing.JOptionPane.showConfirmDialog(Unknown Source)
+	at javax.swing.JOptionPane.showConfirmDialog(Unknown Source)
+	at javax.swing.JOptionPane.showConfirmDialog(Unknown Source)
+	at poo.vendas.ui.SCV.pedir(SCV.java:61)
+	at poo.vendas.ui.SCV.exibirMenu(SCV.java:45)
+	at poo.vendas.ui.SCV.main(SCV.java:25)
+>>> Quinta-feira, 24 Jan 2013 19:30:42 -0300
+java.lang.Error: Unresolved compilation problems: 
+	nome cannot be resolved to a variable
+	preco cannot be resolved to a variable
+	qtde cannot be resolved to a variable
+
+	at poo.vendas.ui.SCV.pedir(SCV.java:62)
+	at poo.vendas.ui.SCV.exibirMenu(SCV.java:45)
+	at poo.vendas.ui.SCV.main(SCV.java:25)
+>>> Quinta-feira, 24 Jan 2013 19:38:51 -0300
+java.lang.NullPointerException
+	at poo.vendas.ProdutoPerecivel.setVencimento(ProdutoPerecivel.java:14)
+	at poo.vendas.ui.SCV.pedir(SCV.java:70)
+	at poo.vendas.ui.SCV.exibirMenu(SCV.java:46)
+	at poo.vendas.ui.SCV.main(SCV.java:26)
+>>> Segunda-feira, 28 Jan 2013 18:01:55 -0300
+java.lang.Error: Unresolved compilation problem: 
+	Cannot make a static reference to the non-static field facade
+
+	at poo.vendas.ui.SCV.criarProduto(SCV.java:62)
+	at poo.vendas.ui.SCV.exibirMenu(SCV.java:40)
+	at poo.vendas.ui.SCV.main(SCV.java:21)
+>>> Segunda-feira, 28 Jan 2013 18:14:06 -0300
+java.lang.NullPointerException
+	at poo.vendas.SCVFacade.criarProduto(SCVFacade.java:28)
+	at poo.vendas.ui.SCV.criarProduto(SCV.java:62)
+	at poo.vendas.ui.SCV.exibirMenu(SCV.java:38)
+	at poo.vendas.ui.SCV.main(SCV.java:19)
+>>> Segunda-feira, 28 Jan 2013 18:34:22 -0300
+java.lang.Error: Unresolved compilation problems: 
+	Cannot make a static reference to the non-static field facade
+	Cannot make a static reference to the non-static field facade
+
+	at poo.vendas.ui.SCV.cadastrarProduto(SCV.java:61)
+	at poo.vendas.ui.SCV.exibirMenu(SCV.java:39)
+	at poo.vendas.ui.SCV.main(SCV.java:19)
+>>> Segunda-feira, 28 Jan 2013 18:37:36 -0300
+java.lang.Error: Unresolved compilation problems: 
+	Cannot make a static reference to the non-static field facade
+	Cannot make a static reference to the non-static field facade
+
+	at poo.vendas.ui.SCV.cadastrarProduto(SCV.java:61)
+	at poo.vendas.ui.SCV.exibirMenu(SCV.java:39)
+	at poo.vendas.ui.SCV.main(SCV.java:19)
+>>> Segunda-feira, 28 Jan 2013 19:03:29 -0300
+java.lang.NullPointerException
+	at poo.vendas.SCVFacade.criarProdutoPerecivel(SCVFacade.java:41)
+	at poo.vendas.ui.SCV.cadastrarProduto(SCV.java:61)
+	at poo.vendas.ui.SCV.exibirMenu(SCV.java:39)
+	at poo.vendas.ui.SCV.main(SCV.java:19)
+>>> Segunda-feira, 28 Jan 2013 19:04:40 -0300
+java.lang.NullPointerException
+	at poo.vendas.SCVFacade.criarProduto(SCVFacade.java:28)
+	at poo.vendas.ui.SCV.cadastrarProduto(SCV.java:65)
+	at poo.vendas.ui.SCV.exibirMenu(SCV.java:39)
+	at poo.vendas.ui.SCV.main(SCV.java:19)
