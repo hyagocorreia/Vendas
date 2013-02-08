@@ -1,7 +1,6 @@
 package poo.vendas.ui;
 
 import poo.vendas.Produto;
-import poo.vendas.ProdutoPerecivel;
 import poo.vendas.SCVException;
 import poo.vendas.SCVFacade;
 import poo.logger.Logger;
@@ -48,7 +47,7 @@ public class SCV {
 		}
 	}
 	
-	public static void cadastrarProduto(){
+	public void cadastrarProduto(){
 		int codigo = Util.lerInteiro("Código do Produto:");
 		String nome = Util.lerString("Nome do produto:");
 		String descricao = Util.lerString("Descrição do produto:");

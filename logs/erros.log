@@ -65,3 +65,9 @@ java.lang.NullPointerException
 	at poo.vendas.ui.SCV.cadastrarProduto(SCV.java:65)
 	at poo.vendas.ui.SCV.exibirMenu(SCV.java:39)
 	at poo.vendas.ui.SCV.main(SCV.java:19)
+>>> Quinta-feira, 31 Jan 2013 14:09:43 -0300
+java.lang.NullPointerException
+	at poo.vendas.SCVFacade.criarProdutoPerecivel(SCVFacade.java:41)
+	at poo.vendas.ui.SCV.cadastrarProduto(SCV.java:60)
+	at poo.vendas.ui.SCV.exibirMenu(SCV.java:38)
+	at poo.vendas.ui.SCV.main(SCV.java:18)
